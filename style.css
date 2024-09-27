@@ -76,11 +76,7 @@ opacity: 0;
     overflow-y: auto;
   }
 
-  .container {
-    flex-direction: column;
-    height: auto;
-    padding: 20px 0;
-  }
+ 
 
   .panel {
     flex: none;
