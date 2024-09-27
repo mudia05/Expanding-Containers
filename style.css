@@ -76,7 +76,7 @@ opacity: 0;
     padding: 5px 10px;
     border-radius: 0 0 10px 10px;
     width: calc(100% - 20px); /* Make sure the text fits within the panel */
-    left: 5px; /* Add padding from the left */
+    right: 10px; /* Add padding from the left */
     position: absolute;
     bottom: 10px; /* Position text at the bottom */
     text-align: center; /* Center the text */
