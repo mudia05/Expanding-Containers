@@ -72,11 +72,11 @@ opacity: 0;
     width: 100vw;
   }
     .panel h3 {
-    font-size: 16px; /* Reduce font size for smaller screens */
+    font-size: 18px; /* Reduce font size for smaller screens */
     padding: 5px 10px;
     border-radius: 0 0 10px 10px;
     width: calc(100% - 20px); /* Make sure the text fits within the panel */
-    right: 10px; /* Add padding from the left */
+    right: 12.5px; /* Add padding from the left */
     position: absolute;
     bottom: 10px; /* Position text at the bottom */
     text-align: center; /* Center the text */
@@ -85,7 +85,7 @@ opacity: 0;
   }
 
   .panel.active h3 {
-    opacity: 1;
+    opacity: .75;
     font-size: 18px; /* Slightly larger font size for active panel */
     transition: opacity 0.3s ease-in 0.4s, font-size 0.3s ease-in 0.4s;
   }
